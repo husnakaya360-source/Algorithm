@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Bir say&#305;n&#305;n pozitif mi negatif mi s&#305;f&#305;r m&#305; oldu&#287;unu bulan algoritma"/>
+        <attribute name="authors" value="H&#252;sna Kaya"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-20 12:14:53 &#214;&#214;"/>
+        <attribute name="created" value="SMO8c25hIEtheWE7TEFQVE9QLTNDVDBDRkVKOzIwMjUtMTAtMTk7MTE6NTk6NTkgw5ZTOzM1NDE="/>
+        <attribute name="edited" value="SMO8c25hIEtheWE7TEFQVE9QLTNDVDBDRkVKOzIwMjUtMTAtMjA7MTI6MTQ6NTMgw5bDljsxOzM3NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <output expression="&quot;Bir A degeri giriniz&quot;" newline="True"/>
+            <input variable="A"/>
+            <if expression="A&gt;=0">
+                <then>
+                    <if expression="A=0">
+                        <then>
+                            <output expression="&quot;A sayisi sifirdir&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;A sayisi pozitiftir.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Negatif bir say&#305;d&#305;r.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
