@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2 say&#305;n&#305;n toplam&#305;n&#305; veren algoritma"/>
+        <attribute name="authors" value="H&#252;sna Kaya"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-19 11:33:40 &#214;S"/>
+        <attribute name="created" value="SMO8c25hIEtheWE7TEFQVE9QLTNDVDBDRkVKOzIwMjUtMTAtMTk7MTE6MzA6MDggw5ZTOzM1MjQ="/>
+        <attribute name="edited" value="SMO8c25hIEtheWE7TEFQVE9QLTNDVDBDRkVKOzIwMjUtMTAtMTk7MTE6MzM6NDAgw5ZTOzE7MzYzMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2, T" type="Integer" array="False" size=""/>
+            <output expression="&quot;sayi1 gir&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <output expression="&quot;sayi2 girin&quot;" newline="True"/>
+            <input variable="sayi2"/>
+            <assign variable="T" expression="sayi1+sayi2"/>
+            <output expression="T" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
