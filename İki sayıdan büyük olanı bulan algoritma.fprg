@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#304;ki say&#305;dan b&#252;y&#252;k olan&#305; bulan algoritma"/>
+        <attribute name="authors" value="H&#252;sna Kaya"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-20 12:37:38 &#214;&#214;"/>
+        <attribute name="created" value="SMO8c25hIEtheWE7TEFQVE9QLTNDVDBDRkVKOzIwMjUtMTAtMjA7MTI6MzM6NDkgw5bDljszNjU2"/>
+        <attribute name="edited" value="SMO8c25hIEtheWE7TEFQVE9QLTNDVDBDRkVKOzIwMjUtMTAtMjA7MTI6Mzc6Mzggw5bDljsxOzM3NjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B" type="Integer" array="False" size=""/>
+            <output expression="&quot;A sayisini giriniz.&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;B sayisini giriniz.&quot;" newline="True"/>
+            <input variable="B"/>
+            <if expression="A&gt;B">
+                <then>
+                    <output expression="A" newline="True"/>
+                </then>
+                <else>
+                    <output expression="B" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
